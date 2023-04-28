@@ -1,0 +1,61 @@
+.loading{
+    margin-top: 50vh;
+    color: blue;
+}
+
+.imgYo{
+
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+}
+
+.descargar{
+    display: block;
+    padding-top: 25px;
+    width: 100px;
+    height: 80px;
+    background-color: black;
+    color: beige;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.color{
+    color: rgb(92, 210, 92);
+}
+.footer{
+    background-color: #E6E6FA;
+    padding: 10px;
+    margin-top: 100px;
+
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cardContacto{
+    max-width: 800px;
+    max-height: 400px;
+}
+.divContacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}

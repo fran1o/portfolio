@@ -1,0 +1,33 @@
+@media screen and (min-width: 1000px) {
+
+    .proyectos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+
+    .proyectos{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+ 
+.card{
+    text-align: center;
+    max-width: 25rem;
+    margin-top: 15px;
+    background-color: #E6E6FA;;
+    padding: 10px;
+
+    
+}
