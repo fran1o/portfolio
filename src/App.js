@@ -12,11 +12,10 @@ function App() {
     <div className="App">
         <NavBar />
         <Routes>
-          <Route exact path='*' element= {<Home /> } />
+          <Route exact path='/portfolio' element= {<Home /> } />
           <Route exact path='/proyectos' element={<Proyectos />} />
           <Route exact path='/contacto' element={<Contacto />} />
         </Routes>
-
     </div>
     </BrowserRouter>
   );

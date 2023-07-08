@@ -32,7 +32,7 @@ function Contacto() {
                                     Gracias por visitar mi portfolio!
 
         </Card.Text>
-        <Link to="/" >
+        <Link to="/portfolio" >
         <Button variant="primary">Volver al inicio</Button>
         </Link>
         

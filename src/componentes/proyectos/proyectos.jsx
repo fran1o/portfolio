@@ -6,6 +6,7 @@ import stylesP from '../../css/proyectos.module.css'
 import imgDelivery from '../../imgProyectos/pepote.png'
 import imgDrumOffice from '../../imgProyectos/drumoffice.png'
 import imgPython from '../../imgProyectos/python.png'
+import imgCenso from '../../imgProyectos/censo.png'
 import styles from '../../css/home.module.css'
 import Spinner from 'react-bootstrap/Spinner';
 
@@ -60,6 +61,17 @@ function Proyectos() {
     GithubPages no soporta Python, por lo tanto dejo un link del demo en youtube, para verlo solo debes ir a "Ver demo"
     </Card.Text>
     <Button href="https://www.youtube.com/watch?v=jV3xL8Xj96o" variant="success"  target="_blank">Ver demo</Button>
+  </Card.Body>
+</Card>
+
+<Card className={stylesP.card}>
+  <Card.Img variant="top" src={imgCenso}/>
+  <Card.Body>
+    <Card.Title>Censo 2023</Card.Title>
+    <Card.Text>
+    App creada para una tarea obligatoria de la materia Programacion en la Universidad ORT.
+    </Card.Text>
+    <Button href="https://fran1o.github.io/App-Censo2023/" variant="success" target="_blank">Ver demo</Button>
   </Card.Body>
 </Card>
 
